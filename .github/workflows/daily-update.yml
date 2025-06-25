@@ -2,7 +2,7 @@ name: Daily Hosts Update
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 每天UTC 16:00运行 (对应北京时间0点)
+    - cron: '0 15 * * *'  # 每天UTC 16:00运行 (对应北京时间0点)
   workflow_dispatch:
 
 jobs:
